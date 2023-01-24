@@ -13,13 +13,34 @@
 
   <body>
    
-    <!-- Side navigation -->
+<!--     <!-- Side navigation -->
     <div class="sidenav">
       <a href="#">About</a>
       <a href="#">Services</a>
       <a href="#">Clients</a>
       <a href="#">Contact</a>
-    </div>
+    </div> -->
+    
+    <mat-sidenav-container >
+      <mat-sidenav #sidenav opened mode=side> 
+        <mat-nav-list>
+
+          <a mat-list-item > Accounts </a>
+          <a mat-list-item > Create Account </a>
+          <a mat-list-item > Contacts </a>
+          <a mat-list-item > Create Contact </a>
+          <a mat-list-item > Activities </a>
+          <a mat-list-item > Create Activity </a>
+          <a mat-list-item (click)="sidenav.toggle()" href="" mat-list-item>Close</a>
+
+        </mat-nav-list>
+      </mat-sidenav>
+      <mat-sidenav-content>
+        <div style="height: 88vh;">
+       temp
+        </div>
+      </mat-sidenav-content>
+    </mat-sidenav-container>
 
     <!-- MAIN CONTENT -->
     <div id="main_content_wrap" class="outer">
