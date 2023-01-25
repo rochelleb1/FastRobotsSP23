@@ -237,13 +237,13 @@ table {
 th {
   font-family: 'Lucida Grande', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   padding: 10px;
-  background: #373737;
+  background: #FFFFD2;
   color: #fff;
  }
 
 td {
   padding: 10px;
-  border: 1px solid #373737;
+  border: 1px solid #FFFFD2;
  }
 
 form {
@@ -296,12 +296,12 @@ Full-Width Styles
 }
 
 #header_wrap {
-  background: #0F79D0;
-  background: -moz-linear-gradient(top, #373737, #0F79D0);
-  background: -webkit-linear-gradient(top, #373737, #0F79D0);
-  background: -ms-linear-gradient(top, #373737, #0F79D0);
-  background: -o-linear-gradient(top, #373737, #0F79D0);
-  background: linear-gradient(to top, #373737, #0F79D0); /* change color of header */
+  background: #C5FAD5;
+  background: -moz-linear-gradient(top, #C5FAD5, #AA96DA);
+  background: -webkit-linear-gradient(top, #C5FAD5, #AA96DA);
+  background: -ms-linear-gradient(top, #C5FAD5, #AA96DA);
+  background: -o-linear-gradient(top, #C5FAD5, #AA96DA);
+  background: linear-gradient(to top, #C5FAD5, #AA96DA); /* change color of header */
 }
 
 #header_wrap .inner {
@@ -374,7 +374,7 @@ Full-Width Styles
 }
 
 #footer_wrap {
-  background: #0F79D0; /* change color of footer */
+  background: #FFFFD2; /* change color of footer */
 }
 
 
