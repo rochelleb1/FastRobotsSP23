@@ -4,4 +4,4 @@ I am an undergraduate senior in Electrical and Computer Engineering at Cornell U
 
 <!-- <img src="/assets/images/pfp.jpg" style="height: 100px;"/> -->
 <!-- ![Picture of Me](/assets/images/pfp.png "Me!") -->
-[Hi](https://github.com/rochelleb1/FastRobotsSP23/blob/master/assets/images/pfp.png)
+[Hi](https://github.com/rochelleb1/FastRobotsSP23/blob/master/assets/images/pfp.png){align=center}
