@@ -10,30 +10,30 @@ I am an undergraduate senior in Electrical and Computer Engineering at Cornell U
 
 Setup and familiarization with the Arduino IDE and the Artemis board. Program the board, use the board LED, read/write serial messages over USB, and use the onboard temperature sensor and Pulse Density Microphone.
 
-## Lab 2: Bluetooth
+## [Lab 2: Bluetooth](./labpages/lab2.md)
 
-## Lab 3: ToF sensors
+## [Lab 3: ToF sensors](./labpages/lab3.md)
 
-## Lab 4: IMU sensors
+## [Lab 4: IMU sensors](./labpages/lab4.md)
 
-## Lab 5: Motors
-
-<hr style="border:2px solid gray">
-
-## Lab 6: PID
-
-## Lab 7: KF
-
-## Lab 8: Stunts
-
-## Lab 9: Mapping
+## [Lab 5: Motors](./labpages/lab5.md)
 
 <hr style="border:2px solid gray">
 
-## Lab 10: Localization (sim)
+## [Lab 6: PID](./labpages/lab6.md)
 
-## Lab 11: Localization (real)
+## [Lab 7: KF](./labpages/lab7.md)
 
-## Lab 12: Planning and Execution
+## [Lab 8: Stunts](./labpages/lab8.md)
+
+## [Lab 9: Mapping](./labpages/lab9.md)
+
+<hr style="border:2px solid gray">
+
+## [Lab 10: Localization (sim)](./labpages/lab10.md)
+
+## [Lab 11: Localization (real)](./labpages/lab11.md)
+
+## [Lab 12: Planning and Execution](./labpages/lab12.md)
 
 <hr style="border:2px solid gray">
