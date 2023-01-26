@@ -8,7 +8,7 @@ I am an undergraduate senior in Electrical and Computer Engineering at Cornell U
 
 ## [Lab 1: Artemis](./labpages/lab1.md)
 
-Setup and familiarization with the Arduino IDE and the Artemis board. Program the board, use the board LED, read/write serial messages over USB, and use the onboard temperature sensor and Pulse Density Microphone.
+Setup and familiarization with the Arduino IDE and the Artemis board.
 
 ## [Lab 2: Bluetooth](./labpages/lab2.md)
 
