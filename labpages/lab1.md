@@ -17,7 +17,7 @@ Below is a video of the functions:
 
 ### Blink
 
-This program blinks the built-in LED by writing the value High, delaying for a second, writing Low, delaying for a second, and looping forever.
+This program blinks the built-in LED by writing the value High, delaying for a second, writing Low, delaying for a second, and looping forever. As a result, the blue built-in LED can be seen to turn off and on every second.
 
 ### Serial
 
@@ -29,6 +29,6 @@ The Artemis Nano includes an onboard ADC that reads analog voltage on the ADCPIN
 
 ### Microphone Output
 
-This section tested the functionality of Pulse Density Microphone (PDM). I tested a range of frequencies, playing YouTube videos of 500Hz, 1000Hz, and 1500Hz. Using FFT computation, the calculated maximum frequencies were 503Hz, 1007Hz, and 1499Hz, respectively. While these frequencies were not being played, a frequency of around 16000Hz is detected in the room, potentially caused by the surrounding walls and devices.
+This section tested the functionality of Pulse Density Microphone (PDM). I tested a range of frequencies, playing YouTube videos of 500Hz, 1000Hz, and 1500Hz. Using FFT computation, the calculated maximum frequencies were 503Hz, 1007Hz, and 1499Hz, respectively. While these frequencies were not being played, a frequency of around 16000Hz is detected in the room, background noise potentially caused by the surrounding walls and devices.
 
 [Back to Homepage](../)
