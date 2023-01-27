@@ -1,6 +1,6 @@
 # Rochelle Barsz
 
-I am an undergraduate senior in Electrical and Computer Engineering at Cornell University with minors in Applied Mathematics and Music. I am interested in the application of Signal Processing to audio processing, data transmission and robotics. Below are the labs completed in **ECE 4160: Fast Robots**:
+I am an undergraduate senior in Electrical and Computer Engineering at Cornell University with minors in Applied Mathematics and Music. I am interested in the application of Signal Processing to audio processing, data transmission and robotics. Below are the labs completed in **ECE 4160: Fast Robots**.
 
 <img src="/FastRobotsSP23/assets/images/pfp.png" class="center" style="height: 400px;"/>
 
