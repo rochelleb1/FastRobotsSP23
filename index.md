@@ -12,6 +12,8 @@ Setup and familiarization with the Arduino IDE and the Artemis board.
 
 ## [Lab 2: Bluetooth](./labpages/lab2.md)
 
+Establish communication between the computer and the Artemis board through Bluetooth.
+
 ## [Lab 3: ToF sensors](./labpages/lab3.md)
 
 ## [Lab 4: IMU sensors](./labpages/lab4.md)

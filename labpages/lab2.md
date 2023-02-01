@@ -4,6 +4,8 @@ layout: default
 
 # Lab 2: Bluetooth
 
+This lab works to establish communication between the computer and the Artemis board through Bluetooth.
+
 ## Prelab
 
 ### Setup
