@@ -4,8 +4,6 @@ layout: default
 
 # Lab 1: Artemis
 
-## The Artemis Board
-
 In this lab, I setup the Arduino IDE and the SparkFun Redboard Artemis Nano. Tasks included using the board LED, reading/writing serial messages over USB, and using the onboard temperature sensor and Pulse Density Microphone.
 
 All code was from the Examples section in the Arduino IDE and tested some basic functions of the RedBoard Artemis Nano mentioned above.
