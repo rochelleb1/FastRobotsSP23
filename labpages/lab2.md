@@ -35,7 +35,7 @@ I work on Windows 11, so after attempting a lot of python and linux fixes, I use
     sudo service dbus start
     sudo service bluetooth start
 
-This allows for the **demo.ipynb** file to work and for connection to the Artemis board.
+This allows for the **demo.ipynb** file to work and for connection to be allowed between the computer and the Artemis board.
 
 ### demo.ipynb
 Using the fix above, I was able to connect to the Artemis board and run the initial cells as shown below:
