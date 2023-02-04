@@ -34,7 +34,7 @@ I work on Windows 11, so after attempting a lot of python and linux fixes, I use
     usbipd wsl attach --busid=1-2
     sudo service dbus start
     sudo service bluetooth start
-    
+
 This allows for the **demo.ipynb** file to work and for connection to the Artemis board.
 
 ### demo.ipynb
@@ -62,7 +62,7 @@ Arduino command code located within the switch case statement under case ECHO. T
         break;
 
 Python code and output:
-<img src="/FastRobotsSP23/assets/images/echo.jpg" class="center" style="height: 400px;"/>
+<img src="/FastRobotsSP23/assets/images/echo.jpg" class="center" style="height: 100px;"/>
 
 
 ### Get Time
@@ -78,7 +78,7 @@ Arduino command code:
         break;
 
 Python code and output:
-<img src="/FastRobotsSP23/assets/images/time.jpg" class="center" style="height: 400px;"/>
+<img src="/FastRobotsSP23/assets/images/time.jpg" class="center" style="height: 100px;"/>
 
 ### Notification Handler
 Instead of receiving values one at a time, we can use a notification handler to constantly update and return a variable. We start by declaring a global variable to be accessed by the notification handler.
@@ -88,7 +88,7 @@ I defined a `callback_function` that takes arguments uuid, which is the ble.uuid
 We call the `callback_function` through **ble.start_notify**, which takes 2 arguments: the uuid of the expected type as well as the callback_function. Values will continue to be updated (incremented by 0.5) until **ble.stop_notify** is called, which takes an argument of the expected type uuid.
 
 Below is the python code to process the task, and no Arduino code was added.
-<img src="/FastRobotsSP23/assets/images/noti.jpg" class="center" style="height: 400px;"/>
+<img src="/FastRobotsSP23/assets/images/noti.jpg" class="center" style="height: 300px;"/>
 
 
 ### Get Temperature Command
