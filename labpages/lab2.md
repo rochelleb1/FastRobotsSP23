@@ -30,9 +30,11 @@ In the Arduino file, we have BLE UUIDs, Universally Uniquie Identifiers to disti
 
 ### Configurations
 I work on Windows 11, so after attempting a lot of python and linux fixes, I used the fix posted by a fellow classmate to get bluetooth to work on WSL2 (Windows Subsystem for Linux). I first installed the "USB/IP Device", providing ownership of the Bluetooth USB to WSL2. I compiled a new kernel for WSL2, then setup the Bluetooth device. Commands that must be run after the Blutetooth device is newly plugged in are:
-`usbipd wsl attach --busid=1-2`
-`sudo service dbus start`
-`sudo service bluetooth start`
+
+    usbipd wsl attach --busid=1-2
+    sudo service dbus start
+    sudo service bluetooth start
+    
 This allows for the **demo.ipynb** file to work and for connection to the Artemis board.
 
 ### demo.ipynb
