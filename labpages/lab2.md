@@ -85,9 +85,9 @@ Python code and output:
 ### Notification Handler
 Instead of receiving values one at a time, we can use a notification handler to constantly update and return a variable. We start by declaring a global variable to be accessed by the notification handler.
 
-I defined a `callback_function` that takes arguments uuid, which is the ble.uuid of the type you are expecting to receive, i.e. *['RX_FLOAT']* in this case. Inside this function, we update the global variable to be the most update version, converting from bytearray to float, then printing the global variable.
+I defined a **callback_function** that takes arguments uuid, which is the ble.uuid of the type you are expecting to receive, i.e. *['RX_FLOAT']* in this case. Inside this function, we update the global variable to be the most update version, converting from bytearray to float, then printing the global variable.
 
-We call the `callback_function` through **ble.start_notify**, which takes 2 arguments: the uuid of the expected type as well as the callback_function. Values will continue to be updated (incremented by 0.5) until **ble.stop_notify** is called, which takes an argument of the expected type uuid.
+We call the **callback_function** through **ble.start_notify**, which takes 2 arguments: the uuid of the expected type as well as the callback_function. Values will continue to be updated (incremented by 0.5) until **ble.stop_notify** is called, which takes an argument of the expected type uuid.
 
 Below is the python code to process the task, and no Arduino code was added.
 <img src="/FastRobotsSP23/assets/images/noti.jpg" class="center" style="height: 300px;"/>
