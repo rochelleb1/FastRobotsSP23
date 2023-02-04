@@ -62,7 +62,8 @@ Arduino command code located within the switch case statement under case ECHO. T
         break;
 
 Python code and output:
-<img src="/FastRobotsSP23/assets/images/echo.jpg" class="center" style="height: 100px;"/>
+
+<img src="/FastRobotsSP23/assets/images/echo.jpg" class="center" style="height: 200px;"/>
 
 
 ### Get Time
@@ -78,7 +79,8 @@ Arduino command code:
         break;
 
 Python code and output:
-<img src="/FastRobotsSP23/assets/images/time.jpg" class="center" style="height: 100px;"/>
+
+<img src="/FastRobotsSP23/assets/images/time.jpg" class="center" style="height: 200px;"/>
 
 ### Notification Handler
 Instead of receiving values one at a time, we can use a notification handler to constantly update and return a variable. We start by declaring a global variable to be accessed by the notification handler.
